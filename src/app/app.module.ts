@@ -10,6 +10,7 @@ import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { ListingComponent } from './listing/listing.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListingComponent } from './listing/listing.component';
     TeamComponent,
     ContactComponent,
     FooterComponent,
-    ListingComponent
+    ListingComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule
